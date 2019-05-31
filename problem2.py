@@ -30,5 +30,6 @@ def fivonachicken(num):
             result += fivo_func(i)[(fivo_func(i).index(i) - 1)]
     return result
 
-man = int(input("자애로운 자여, 몇명이나 먹이려고 하는고? "))
-print(fivonachicken(man))
+man = int(input("자애로운 자여, 몇명이나 먹이려고 하는고? : "))
+print(man,"명을 먹이려고 하나이다")
+print("그렇다면 ",fivonachicken(man),"마리를 시키거라. 능히 ",man, "명을 먹이는데 부족함이 없느니라.")
